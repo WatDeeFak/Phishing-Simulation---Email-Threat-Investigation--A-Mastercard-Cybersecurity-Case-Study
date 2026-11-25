@@ -1,0 +1,25 @@
+X-Training-Artifact: Fictional phishing-awareness example; do not send
+From: IT Service Desk <it-alerts@company.example>
+To: employee@company.example
+Reply-To: account-help@example.org
+Subject: Account security notice - verification required
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Hello Employee,
+
+This fictional example claims that unusual sign-in activity was detected and asks the recipient to verify their account promptly.
+
+Review link:
+[SIMULATION LINK REDACTED - NO LIVE URL]
+
+The message asks the recipient to contact the sender by replying to this email if assistance is required.
+
+Regards,
+IT Service Desk
+
+--- Training analysis notes ---
+- Fear and urgency: the message uses an account-security concern to prompt action.
+- Unexpected verification: employees should not use an unsolicited link to enter credentials.
+- Reply-To mismatch: the reply address differs from the visible company domain.
+- Safe response: open the known company portal using a bookmark or contact IT through a verified channel; report the message.

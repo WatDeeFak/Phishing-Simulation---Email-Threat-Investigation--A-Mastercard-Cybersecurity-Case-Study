@@ -1,0 +1,8 @@
+Metric,Value,Unit,Classification,Notes
+Emails delivered,24,emails,Simulated,Scenario denominator
+Unique link clicks,3,users,Simulated,Three clickers identified in scenario
+No recorded link clicks,21,users,Simulated,Calculated as delivered minus unique clickers within scenario
+Click rate,12.5,percent,Calculated from simulated data,3 divided by 24 times 100
+Credential submissions,,unknown,Not established,No submission evidence supplied
+Attachment executions,,unknown,Not established,No employee endpoint execution evidence supplied
+Confirmed account takeovers,0,established cases,Not established,No confirmed account takeover in supplied scenario evidence

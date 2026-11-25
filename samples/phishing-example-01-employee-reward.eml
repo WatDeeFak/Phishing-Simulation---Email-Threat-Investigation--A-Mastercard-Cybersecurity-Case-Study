@@ -1,0 +1,27 @@
+X-Training-Artifact: Fictional phishing-awareness example; do not send
+From: Employee Rewards <rewards@company.example>
+To: employee@company.example
+Reply-To: reward-claims@example.net
+Subject: Employee reward coupon - action requested by 6 PM
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Hello Employee,
+
+The message claims that you have been selected to receive an employee shopping coupon in recognition of your work.
+
+It asks you to review the reward before 6 PM using the following placeholder:
+[SIMULATION LINK REDACTED - NO LIVE URL]
+
+It also references an attachment named:
+Employee_Reward_Coupon.pdf.exe [filename only; no file is attached]
+
+Regards,
+Employee Rewards Team
+
+--- Training analysis notes ---
+- Reward lure: an unexpected benefit is used to attract attention.
+- Urgency: the 6 PM deadline pressures the recipient to act quickly.
+- Reply-To mismatch: the reply address uses an external example domain.
+- Double extension: the filename ends in .exe, not .pdf.
+- Safe response: do not click, reply, or open an unexpected attachment; report it using the organization's approved channel.

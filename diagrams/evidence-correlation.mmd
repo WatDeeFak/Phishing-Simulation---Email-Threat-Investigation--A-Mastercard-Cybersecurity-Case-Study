@@ -1,0 +1,9 @@
+flowchart LR
+    A[Email headers] --> E[Correlated evidence]
+    B[URL and landing page] --> E
+    C[Attachment metadata and hash] --> F[Correlated evidence]
+    D[Sandbox behavior] --> F
+    E --> G[Attack hypothesis]
+    F --> G
+    G --> H[Impact assessment]
+    H --> I[Response recommendations]

@@ -1,0 +1,17 @@
+flowchart TD
+    A[Phishing indicator reported] --> B[Preserve original email and logs]
+    B --> C[Search recipients and scope]
+    C --> D[Quarantine or purge matching email]
+    C --> E[Review URL, proxy, DNS telemetry]
+    C --> F[Review attachment and EDR telemetry]
+    E --> G{Credential submitted or account compromised?}
+    F --> H{Malware execution or endpoint compromise?}
+    G -->|Yes / suspected| I[Reset credentials and revoke sessions per policy]
+    G -->|No evidence| J[Continue monitoring and user verification]
+    H -->|Yes / suspected| K[Isolate affected endpoint per policy]
+    H -->|No evidence| L[Do not isolate solely for a click]
+    I --> M[Eradication and recovery as required]
+    K --> M
+    J --> N[Document outcomes and lessons learned]
+    L --> N
+    M --> N

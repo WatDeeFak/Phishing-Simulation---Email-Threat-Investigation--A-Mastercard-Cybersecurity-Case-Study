@@ -1,0 +1,11 @@
+Sequence,Phase,Event_or_Activity,Result,Status
+1,Initial Triage,Email delivered to 24 recipients,Reward lure and 6 PM deadline identified,Observed in simulated scenario
+2,Header Analysis,Reply-To Return-Path and Received examined,External domain indicators identified,Observed in simulated scenario
+3,Authentication,SPF DKIM DMARC evaluated,SPF PASS DKIM PASS DMARC FAIL,Observed in simulated scenario
+4,URL Analysis,Initial hyperlink destination inspected,External domain rewards-notice.example.net,Observed in simulated scenario
+5,Redirect Analysis,Redirect parameter inspected,Target login-rewards.example.org,Observed in simulated scenario
+6,Landing Page Analysis,Destination page reviewed,Microsoft 365 lookalike requests credentials,Observed in simulated scenario
+7,Attachment Triage,Filename and signature inspected,Double extension and MZ signature,Observed in simulated scenario
+8,Threat Intelligence,URL and file reputation results reviewed,Simulated detections reported,Observed in simulated scenario
+9,Sandbox Analysis,Attachment behavior reviewed,PowerShell network file and Run-key activity,Observed in sandbox only
+10,Impact Assessment,Gateway endpoint and identity logs reviewed,3 clicks; no confirmed submission or endpoint execution,Observed within stated scope

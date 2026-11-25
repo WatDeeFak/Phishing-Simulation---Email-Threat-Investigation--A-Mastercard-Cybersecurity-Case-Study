@@ -1,0 +1,13 @@
+flowchart TD
+    A[Employee-reward email] --> B[Reward lure + 6 PM deadline]
+    B --> C{Employee interaction}
+    C -->|Hyperlink| D[rewards-notice.example.net]
+    D --> E[redirect parameter]
+    E --> F[login-rewards.example.org]
+    F --> G[Microsoft 365 lookalike page]
+    G --> H[Potential credential harvesting]
+    C -->|Attachment opened| I[Employee_Reward_Coupon.pdf.exe]
+    I --> J[Potential executable launch]
+    J --> K[Sandbox-observed PowerShell]
+    K --> L[Network and file activity]
+    L --> M[Run-key persistence attempt]

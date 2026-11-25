@@ -1,0 +1,1 @@
+No software license is granted by this repository. The case data and examples are fictional training materials. If you plan to add a license, choose one appropriate to the content and any third-party assets included in the presentation template.
